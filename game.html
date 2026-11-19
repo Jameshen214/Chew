@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Play $CHEW Rooftops | $CHEW</title><meta name="description" content="Play $CHEW Rooftops: an endless survival shooter. Top the weekly leaderboard.">
+<meta property="og:title" content="Play $CHEW Rooftops | $CHEW"><meta property="og:description" content="Play $CHEW Rooftops: an endless survival shooter. Top the weekly leaderboard.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🦫</text></svg>">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@500;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="site.css">
+</head><body>
+<div class="bgfx" id="fx" aria-hidden="true"></div>
+<nav><div class="wrap"><a class="logo" id="logo" href="index.html#home"><span>🦫</span>$CHE<b>W</b></a>
+<button class="burger" id="bg" aria-label="Toggle menu" aria-expanded="false">☰</button>
+<div class="links" id="lk"><a href="index.html#home">Home</a><a href="index.html#about">About</a><a href="index.html#tokenomics">Tokenomics</a><a href="index.html#roadmap">Roadmap</a><a href="game.html" style="color:var(--gold)">Game</a><a href="leaderboard.html">Leaderboard</a><a href="index.html#community">Community</a><a class="navuser" id="navuser" href="profile.html" hidden>👤</a><a id="navadmin" href="admin.html" hidden>Admin</a><a class="btn main" href="https://pump.fun/coin/HrvF3KLc2Q5P6pHbsJBNn6pPoUvb3jGBBKzVkSripump" target="_blank" rel="noopener">BUY $CHEW</a></div></div></nav>
+<main class="gm"><div class="gstage"><canvas id="gc" width="800" height="400" aria-label="CHEW Rooftops game"></canvas><div class="gui on" id="gui"></div></div>
+<div class="gctl" id="gctl"><div class="grp"><button id="bl" aria-label="Move left">◀</button><button id="br" aria-label="Move right">▶</button></div><div class="grp r"><button id="bj">JUMP</button><button id="bf">FIRE</button></div></div>
+<p class="ghelp">Desktop: A / D or ← → to move · SPACE or ↑ to jump (double jump) · hold X, Z or click to shoot. 200 HP. Enemies shoot back.</p>
+<div style="text-align:center;margin-top:8px"><button class="btn mini" id="gmute" aria-label="Toggle sound">🔊</button></div></main>
+<div id="toast" role="status"></div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+<script src="app.js"></script>
+<script src="game.js"></script>
+</body></html>
